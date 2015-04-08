@@ -1,0 +1,49 @@
+.fancybox-skin {
+    background: #000;
+}
+
+.fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: none;
+    color: #000;
+    background-color: #fff;
+    font-size: 2em;
+}
+
+.fancybox-prev span {
+    left: 0;
+}
+
+.fancybox-next span {
+    right: 0;
+}
+
+.fancybox-close {
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+}
+
+.fancybox-close:hover,
+.fancybox-nav:hover span {
+    background-color: #c00;
+    color: #fff;
+}
+
+.fancybox-close span {
+    display: block;
+}
+
+.fancybox-nav span {
+    width: auto;
+    height: auto;
+    visibility: visible;
+}
+
+.fancybox-title-inside-wrap {
+    padding: 1em;
+    background: #000;
+    color: #fff;
+    font-family: UniversRoman;
+    font-size: 1.05em;
+}

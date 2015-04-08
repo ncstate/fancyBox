@@ -4,8 +4,16 @@
 	<title>fancyBox - Fancy jQuery Lightbox Alternative | Demonstration</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<!-- Add jQuery library -->
-	<script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
+	<!-- NC State Bootstrap CSS -->
+	<link href="https://cdn.ncsu.edu/brand-assets/bootstrap/css/bootstrap.css"
+	rel="stylesheet" media="screen" type="text/css" />
+
+	<!-- jQuery 2.1.0 -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.ncsu.edu/brand-assets/bootstrap/js/bootstrap.min.js">
+	</script>
 
 	<!-- Add mousewheel plugin (this is optional) -->
 	<script type="text/javascript" src="../lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -13,6 +21,7 @@
 	<!-- Add fancyBox main JS and CSS files -->
 	<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script>
 	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../source/ncstate-fancybox.css?v=2.1.5" media="screen" />
 
 	<!-- Add Button helper (this is optional) -->
 	<link rel="stylesheet" type="text/css" href="../source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
@@ -25,13 +34,11 @@
 	<!-- Add Media helper (this is optional) -->
 	<script type="text/javascript" src="../source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
+	<!-- NC State init settings -->
+	<script type="text/javascript" src="../source/ncstate-fancybox.js?v=1.0.6"></script>
+
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			 *  Simple image gallery. Uses default settings
-			 */
-
-			$('.fancybox').fancybox();
 
 			/*
 			 *  Different effects
