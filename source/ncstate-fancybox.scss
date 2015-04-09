@@ -12,11 +12,13 @@
 }
 
 .fancybox-prev span {
+    right: auto;
     left: 0;
 }
 
 .fancybox-next span {
     right: 0;
+    left: auto;
 }
 
 .fancybox-close {
