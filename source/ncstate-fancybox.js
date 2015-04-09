@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+    var fancybox_src = $('script[src*="ncstate-fancybox-min.js"]').attr('src'),
+        fancybox_version = fancybox_src.substr(fancybox_src.indexOf('?v=')),
+        fancybox_url = fancybox_src.replace('ncstate-fancybox-min.js' + fancybox_version, '');
+
+
+    $('head').append('<link rel="stylesheet" href="' + fancybox_url + 'ncstate-fancybox.css' + fancybox_version + '" type="text/css" />');
+
     $(".fancybox")
         .attr('rel', 'gallery')
         .fancybox({
