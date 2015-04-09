@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var fancybox_src = $('script[src*="ncstate-fancybox-min.js"]').attr('src'),
-        fancybox_version = fancybox_src.substr(fancybox_src.indexOf('?v=')),
+        fancybox_version = fancybox_src.indexOf('?v=') === -1 ? '' : fancybox_src.substr(fancybox_src.indexOf('?v=')),
         fancybox_url = fancybox_src.replace('ncstate-fancybox-min.js' + fancybox_version, '');
 
 
