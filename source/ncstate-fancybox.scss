@@ -1,5 +1,28 @@
 @import "jquery.fancybox";
 
+.fancybox-magnify {
+    position: relative;
+    display: block;
+
+    &:after {
+        clear: both;
+        content: 'k';
+        color: #fff;
+        background-color: #333;
+        padding: 7px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-family: ncsu-icons;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
 .fancybox-skin {
     background: #000;
 }
