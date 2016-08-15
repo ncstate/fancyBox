@@ -8,18 +8,26 @@
         clear: both;
         content: 'k';
         color: #fff;
-        background-color: #333;
+        background-color: #666;
         padding: 7px;
         display: inline-block;
         position: absolute;
-        top: 0;
-        right: 0;
+        bottom: 0;
+        left: 0;
         font-family: ncsu-icons;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 400;
+        border-top: 2px solid #fff;
+        border-right: 2px solid #fff;
         line-height: 1;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+    }
+
+    &:hover:after,
+    &:focus:after {
+        background-color: #333;
     }
 }
 
