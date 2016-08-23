@@ -46,7 +46,7 @@ $(document).ready(function() {
         });
     }
 
-    $(".fancybox-magnify").each(function(index, img) {
+    $(".fancybox-expand").each(function(index, img) {
         $(img).fancybox({
             beforeLoad: function() {
                 this.title = $(this.element).attr('data-caption');

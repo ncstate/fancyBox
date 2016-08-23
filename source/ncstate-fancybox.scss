@@ -1,12 +1,12 @@
 @import "jquery.fancybox";
 
-.fancybox-magnify {
+.fancybox-expand {
     position: relative;
     display: block;
 
     &:after {
         clear: both;
-        content: 'k';
+        content: 'W';
         color: #fff;
         background-color: #666;
         padding: 7px;
